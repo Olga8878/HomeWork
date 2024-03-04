@@ -9,9 +9,7 @@ public class Task3 {
         Scanner sc = new Scanner(in);
         System.out.println("Введи число");
         int num = sc.nextInt();
-        boolean result = num % 2 == 0;
-
-        if (result) {
+        if (num % 2 == 0) {
             System.out.println("Четное");
         } else {
             System.out.println("Нечетное");

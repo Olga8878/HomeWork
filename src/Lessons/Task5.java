@@ -25,8 +25,10 @@ public class Task5 {
                 break;
             case 6:
                 System.out.println("Синий");
+                break;
             case 7:
                 System.out.println("Фиолетовый");
+                break;
             default:
                 System.out.println("Такого цвета нет");
         }
