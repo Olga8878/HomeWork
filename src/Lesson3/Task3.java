@@ -1,5 +1,6 @@
 package Lesson3;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Task3 {
@@ -11,10 +12,8 @@ public class Task3 {
         for (int i = 0; i < array1.length; i++) {
             Random r = new Random();
             array1[i] = r.nextInt(5);
-        }
-        for (int i = 0; i < array2.length; i++) {
-            Random r = new Random();
             array2[i] = r.nextInt(5);
+
         }
         for (int i = 0; i < array1.length; i++) {
             System.out.print(array1[i] + " ");
@@ -31,21 +30,25 @@ public class Task3 {
 
         for (int i = 0; i < array1.length; i++) {
             a += array1[i];
-        }
-        System.out.println(a);
-
-        for (int i = 0; i < array2.length; i++) {
             b += array2[i];
         }
-        System.out.println(b);
+            System.out.print(a);
+            System.out.print("\n");
+            System.out.print(b);
+            System.out.print("\n");
+            {
+                {
 
-        if (a > b)
-            System.out.println("Первый массив больше");
-        else if (a == b)
-            System.out.println("Сумма обоих массивов равна");
-        else
-            System.out.println("Второй массив больше");
+                    if (a > b)
+                        System.out.println("Первый массив больше");
+                    else if (a == b)
+                        System.out.println("Сумма обоих массивов равна");
+                    else
+                        System.out.println("Второй массив больше");
 
+                }
+            }
+        }
     }
-}
+
 

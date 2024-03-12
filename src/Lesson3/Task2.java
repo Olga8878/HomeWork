@@ -39,6 +39,7 @@ public class Task2 {
             av += array[i];
         }
         av /= array.length;
+//        Мне здесь нужен еще один for?
         System.out.println("Среднее : " + av);
     }
 }
