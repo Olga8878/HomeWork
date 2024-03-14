@@ -32,23 +32,21 @@ public class Task3 {
             a += array1[i];
             b += array2[i];
         }
-            System.out.print(a);
-            System.out.print("\n");
-            System.out.print(b);
-            System.out.print("\n");
+        System.out.print(a + "\n" + b);
+        System.out.println();
+        {
             {
-                {
 
-                    if (a > b)
-                        System.out.println("Первый массив больше");
-                    else if (a == b)
-                        System.out.println("Сумма обоих массивов равна");
-                    else
-                        System.out.println("Второй массив больше");
+                if (a > b)
+                    System.out.println("Первый массив больше");
+                else if (a == b)
+                    System.out.println("Сумма обоих массивов равна");
+                else
+                    System.out.println("Второй массив больше");
 
-                }
             }
         }
     }
+}
 
 
