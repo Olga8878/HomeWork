@@ -34,19 +34,20 @@ public class Task3 {
         }
         System.out.print(a + "\n" + b);
         System.out.println();
+
         {
-            {
 
-                if (a > b)
-                    System.out.println("Первый массив больше");
-                else if (a == b)
-                    System.out.println("Сумма обоих массивов равна");
-                else
-                    System.out.println("Второй массив больше");
+            if (a > b)
+                System.out.println("Первый массив больше");
+            else if (a == b)
+                System.out.println("Сумма обоих массивов равна");
+            else
+                System.out.println("Второй массив больше");
 
-            }
         }
+
     }
 }
+
 
 
