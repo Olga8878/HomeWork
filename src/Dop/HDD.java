@@ -1,11 +1,12 @@
 package Dop;
 
 public class HDD {
+
     String name;
     int volume;
     String type;
-    public HDD()
-    {
+
+    public HDD() {
 
     }
 

@@ -1,10 +1,10 @@
 package Dop;
 
 public class Computer {
-    int cost;
-    String model;
-    RAM ram;
-    HDD hdd;
+    private final int cost;
+    private final String model;
+    private final RAM ram;
+    private final HDD hdd;
 
     public Computer(int cost, String model) {
         this.cost = cost;

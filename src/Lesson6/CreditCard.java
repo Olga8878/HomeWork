@@ -2,8 +2,8 @@ package Lesson6;
 
 public class CreditCard {
 
-    String accountNumber;
-    int balance;
+    private final String accountNumber;
+    protected int balance;
 
     public CreditCard(String accountNumber, int balance) {
         this.accountNumber = accountNumber;
@@ -11,17 +11,20 @@ public class CreditCard {
     }
 
     public void addMoney(int balance) {
-        if (balance <= 0) {
-            return;
-        }
+
         this.balance += balance;
     }
 
-    public void withdrawMoney(int balance) {
+    public int withdrawMoney(int balance) {
         if (this.balance < balance || balance <= 0) {
-            return;
+            return -1;
         }
         this.balance -= balance;
+        return this.balance;
+    }
+
+    public void info() {
+        System.out.println("Account Number:" + accountNumber + "\n" + "Balance:" + balance);
     }
 
     public String getAccountNumber() {
