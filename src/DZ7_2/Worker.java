@@ -2,7 +2,7 @@ package DZ7_2;
 
 public class Worker implements Position {
 
-    String position;
+    private final String position;
 
     public Worker(String position) {
         this.position = position;

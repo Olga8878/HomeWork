@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        Shapes[] sh = new Shapes[5];
+        Shape[] sh = new Shape[5];
 
         for (int i = 0; i < 5; i++) {
 
@@ -33,7 +33,7 @@ public class Main {
         }
 
         double totalPerimeter = 0.0;
-        for (Shapes shapes : sh) {
+        for (Shape shapes : sh) {
             totalPerimeter += shapes.calculatePerimeter();
 
         }

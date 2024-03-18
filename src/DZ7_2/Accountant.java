@@ -2,8 +2,7 @@ package DZ7_2;
 
 public class Accountant implements Position {
 
-    String position;
-    String name;
+   private final String position;
 
     public Accountant(String position) {
         this.position = position;

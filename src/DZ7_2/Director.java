@@ -2,8 +2,8 @@ package DZ7_2;
 
 public class Director implements Position {
 
-    String position;
-    String name;
+  private final String position;
+
 
     public Director(String position) {
         this.position = position;
