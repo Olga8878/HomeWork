@@ -1,8 +1,8 @@
 package Dop;
 
 public class RAM {
-    String name;
-    int volume;
+   private String name;
+    private int volume;
 
     public RAM()
     {

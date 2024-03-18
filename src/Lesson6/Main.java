@@ -8,9 +8,9 @@ public class Main {
         CreditCard card3 = new CreditCard("33223", 3000);
 
 
-        System.out.println("card1 number = " + card1.getAccountNumber() + "\n" + card1.balance);
-        System.out.println("card2 number = " + card2.getAccountNumber() + "\n" + card2.balance);
-        System.out.println("card3 number = " + card3.getAccountNumber() + "\n" + card3.balance);
+        System.out.println("card1 number = " + card1.getAccountNumber() + "\n" + card1.getBalance());
+        System.out.println("card2 number = " + card2.getAccountNumber() + "\n" + card2.getBalance());
+        System.out.println("card3 number = " + card3.getAccountNumber() + "\n" + card3.getBalance());
 
         card1.addMoney(500);
         card2.addMoney(1000);
