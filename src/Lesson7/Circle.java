@@ -1,7 +1,8 @@
 package Lesson7;
 
 public class Circle extends Shape {
-    public double radius;
+
+    private double radius;
 
     public Circle(double radius) {
         this.radius = radius;
