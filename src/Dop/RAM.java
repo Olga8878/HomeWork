@@ -1,11 +1,11 @@
 package Dop;
 
 public class RAM {
-   private String name;
+
+    private String name;
     private int volume;
 
-    public RAM()
-    {
+    public RAM() {
 
     }
 
