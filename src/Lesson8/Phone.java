@@ -2,24 +2,25 @@ package Lesson8;
 
 
 public class Phone {
-    private String number;
+    private int number;
     private String model;
     private String weight;
 
-    public Phone(String number, String model, String weight) {
-        this(number, weight);
-        this.model = model;
-
-    }
-
-    public Phone(String number, String model) {
-        this.number = number;
-        this.model = model;
-
-    }
 
     public Phone()
     {
+
+    }
+
+    public Phone(int number, String model, String weight) {
+        this(number,weight);
+        this.model = model;
+
+    }
+
+    public Phone(int number, String model) {
+        this.number = number;
+        this.model = model;
 
     }
 
@@ -30,12 +31,12 @@ public class Phone {
 
     }
 
-    public void receiveCall(String name, String number) {
+    public void receiveCall(String name, int number) {
 
         System.out.println("Звонит: " + name + "с номера телефона:" + number);
     }
 
-    public String getNumber() {
+    public int getNumber() {
         return number;
 
     }
