@@ -4,18 +4,16 @@ package Lesson8;
 public class Phone {
     private int number;
     private String model;
-    private String weight;
+    private int weight;
 
 
-    public Phone()
-    {
+    public Phone() {
 
     }
 
-    public Phone(int number, String model, String weight) {
-        this(number,weight);
-        this.model = model;
-
+    public Phone(int number, String model, int weight) {
+        this(number, model);
+        this.weight = weight;
     }
 
     public Phone(int number, String model) {
@@ -23,7 +21,6 @@ public class Phone {
         this.model = model;
 
     }
-
 
     public void receiveCall(String name) {
 

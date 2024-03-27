@@ -3,9 +3,9 @@ package Lesson8;
 public class Main {
     public static void main(String[] args) {
 
-        Phone phone1 = new Phone(47557575, "Nokia", "10");
-        Phone phone2 = new Phone(58585888, "Iphone", "5");
-        Phone phone3 = new Phone(85858588, "Samsung", "6");
+        Phone phone1 = new Phone(47557575, "Nokia", 10);
+        Phone phone2 = new Phone(58585888, "Iphone", 8);
+        Phone phone3 = new Phone(85858588, "Samsung", 11);
 
         phone1.receiveCall("Друг");
         phone2.receiveCall("Муж");
