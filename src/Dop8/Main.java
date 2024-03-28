@@ -3,7 +3,8 @@ package Dop8;
 public class Main {
     public static void main(String[] args) {
 
-        TreatmentPlan plan1 = new TreatmentPlan(2);
+        TreatmentPlan plan1 = new TreatmentPlan(1);
+        Patient patient = new Patient(plan1);
         assignDoctor(plan1);
     }
 
@@ -19,5 +20,4 @@ public class Main {
         doctor.heal();
     }
 }
-
 
