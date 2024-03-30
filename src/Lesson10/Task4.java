@@ -13,8 +13,8 @@ public class Task4 {
         StringBuilder duplicatedStr = new StringBuilder();
 
         for (int i = 0; i < input.length(); i++) {
-            char Char1 = input.charAt(i);
-            duplicatedStr.append(Char1).append(Char1);
+            char enteredString = input.charAt(i);
+            duplicatedStr.append(enteredString).append(enteredString);
         }
 
         System.out.println(duplicatedStr);

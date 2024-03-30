@@ -15,23 +15,21 @@ public class Task1 {
         String longestWord = "";
 
         for (String word : words) {
-            if (shortestWord.equalsIgnoreCase("") || word.length() < shortestWord.length()) {
+            if (shortestWord.isEmpty() || word.length() < shortestWord.length()) {
                 shortestWord = word;
             }
-            if (longestWord.equalsIgnoreCase("") || word.length() >= longestWord.length()) {
+            if (longestWord.isEmpty() || word.length() >= longestWord.length()) {
                 longestWord = word;
             }
         }
 
         String lastShortestWord = "";
+        String lastLongestWord = "";
+
         for (String word : words) {
             if (word.length() == shortestWord.length()) {
                 lastShortestWord = word;
             }
-        }
-
-        String lastLongestWord = "";
-        for (String word : words) {
             if (word.length() == longestWord.length()) {
                 lastLongestWord = word;
             }

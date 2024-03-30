@@ -15,13 +15,13 @@ public class Task3 {
         String[] words = input.split("\\s+");
 
         if (word > 0 & word <= words.length) {
-            String word1 = words[word - 1];
-            String reversedWord1 = new StringBuilder(word1).reverse().toString();
+            String selectedWord = words[word - 1];
+            String reversedWord1 = new StringBuilder(selectedWord).reverse().toString();
 
-            if (word1.equalsIgnoreCase(reversedWord1)) {
-                System.out.println("Слово " + word1 + "  является палиндромом.");
+            if (selectedWord.equalsIgnoreCase(reversedWord1)) {
+                System.out.println("Слово " + selectedWord + "  является палиндромом.");
             } else {
-                System.out.println("Слово " + word1 + " не является палиндромом.");
+                System.out.println("Слово " + selectedWord + " не является палиндромом.");
             }
         } else {
             System.out.println("Некорректный номер слова.");
