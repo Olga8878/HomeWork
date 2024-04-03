@@ -11,14 +11,14 @@ public class Task1 {
 
         String[] words = input.split("\\s+");
 
-        String shortestWord = "";
-        String longestWord = "";
+        String shortestWord = words[0];
+        String longestWord = words[0];
 
         for (String word : words) {
-            if (shortestWord.isEmpty() || word.length() < shortestWord.length()) {
+            if (word.length() < shortestWord.length()) {
                 shortestWord = word;
             }
-            if (longestWord.isEmpty() || word.length() >= longestWord.length()) {
+            if (word.length() >= longestWord.length()) {
                 longestWord = word;
             }
         }
